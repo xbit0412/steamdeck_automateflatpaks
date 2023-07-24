@@ -1,3 +1,3 @@
 #!/bin/bash
-wget https://objects.githubusercontent.com/github-production-release-asset-2e65be/670043976/ff4a9267-ea24-48ec-af6b-11198a7cdb6d?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20230724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230724T072408Z&X-Amz-Expires=300&X-Amz-Signature=064604eefa607cce946cf5c7420b5fa87883b4baedc35dc314f84a55cf1daa22&X-Amz-SignedHeaders=host&actor_id=49124002&key_id=0&repo_id=670043976&response-content-disposition=attachment%3B%20filename%3Dcommands.sh&response-content-type=application%2Foctet-stream -P $HOME/.config/autostart-scripts
+wget https://github.com/xbit0412/steamdeck_automateflatpaks/releases/download/steamdeck/install.sh -P $HOME/.config/autostart-scripts
 chmod +x $HOME/.config/autostart-scripts/commands.sh

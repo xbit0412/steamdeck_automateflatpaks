@@ -2,6 +2,7 @@
 flatpak update --noninteractive --assumeyes
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 flatpak install flathub com.anydesk.Anydesk --assumeyes
+flatpak install flathub io.github.peazip.PeaZip --assumeyes
 flatpak install flathub org.qbittorrent.qBittorrent --assumeyes
 flatpak install flathub net.davidotek.pupgui2 --assumeyes
 flatpak install flathub com.github.Matoking.protontricks --assumeyes
